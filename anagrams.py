@@ -50,7 +50,7 @@ def find_anagrams(words):
         #     continue
         # anagrams[alpha] = [word]
 
-    return d
+    return dict(d)
 
 
 if __name__ == "__main__":
